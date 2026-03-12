@@ -1,0 +1,30 @@
+import java.util.*;
+public class Student{
+     public static void main(String[]args){
+         Scanner scan = new Scanner(System.in);
+
+        String[] names = {
+            "Pinoc, Lea May", "Espinosa, Jocelyn", "Insorio, Jasmine", "Amores, Julian Marie", "Macaraeg, Susana",
+            "Leyco, Paola", "Malangsa, Jim Anderson", "Apeta, Rodmar", "Delo Santos, James Aldrin", "Paz, kirk Jancey"};
+
+        double[] grades = new double[10];
+
+        System.out.println("STUDENT RECORD SYSTEM");
+        System.out.println("------------------------");
+
+        for (int i = 0; i < names.length; i++) {
+            System.out.print("Grade for " + names[i] + ": ");
+            grades[i] = scan.nextDouble();
+        }
+
+        System.out.println("\nSTUDENT RECORD LIST");
+        System.out.println("------------------------");
+
+        for (int i = 0; i < names.length; i++) {
+            System.out.println("Name : " + names[i]);
+            System.out.println("Grade: " + grades[i]);
+            System.out.println("------------------------");
+        }
+
+     }
+    }
