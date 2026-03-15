@@ -16,10 +16,6 @@ public class Student{
             System.out.print("Grade for " + names[i] + ": ");
             grades[i] = scan.nextDouble();
         }
-dasdsadasda;
-dsdasdhasjdashd
-ldldladasdas
-l;;dasdasdas
 
         System.out.println("\nSTUDENT RECORD LIST");
         System.out.println("------------------------");
