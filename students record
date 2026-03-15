@@ -11,7 +11,7 @@ public class Student{
 
         System.out.println("STUDENT RECORD SYSTEM");
         System.out.println("------------------------");
-
+System.out.println("Welcome to the Feature Menu!");
         for (int i = 0; i < names.length; i++) {
             System.out.print("Grade for " + names[i] + ": ");
             grades[i] = scan.nextDouble();
